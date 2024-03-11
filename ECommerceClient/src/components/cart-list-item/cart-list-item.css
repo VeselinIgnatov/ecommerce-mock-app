@@ -1,0 +1,47 @@
+
+.cart-items-list {
+    width: 30%;
+    color: black;
+}
+
+.cart-item-line {
+    display: flex;
+    justify-content: space-between;
+    font-size: 18px;
+    margin-bottom: 10px;
+
+    & img {
+        width: 100px;
+        height: 100px;
+    } 
+}
+
+.item-info-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+}
+
+.item-info, .item-actions {
+    display: flex;
+    gap: 20px;
+    justify-content: flex-end;
+}
+
+.remove-item-icon {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: red;
+    color: white;
+}
+
+.remove-item-icon:hover {
+    background-color: rgb(187, 4, 4);
+    cursor: pointer;
+}
+.delete-item-button{
+    padding: 0;
+    background-color: transparent;
+}

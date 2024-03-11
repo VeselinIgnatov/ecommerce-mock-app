@@ -1,0 +1,19 @@
+.quantity-input-container {
+    display: flex;
+
+    & button:first-child {
+        padding-left: 8px;
+        padding-right: 8px;
+    }
+}
+
+.quantity-number {
+    width: 20px;
+    text-align: center;
+    border: none;
+}
+
+button {
+    border: none;
+
+}

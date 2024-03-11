@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project>
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAYcESVUuRXkijYCBbgN8IPwAAAAACAAAAAAAQZgAAAAEAACAAAACUDmmqS7E8ZqPpL6psMyG4FoPeCbgIJkKgsh4rs8VPgAAAAAAOgAAAAAIAACAAAAAVyrYF679nR6f4UEUDegURT5wy9R5pAOu7A6QjvjYCAoAAAAAnPyZNp3PbGSdYszVXSN1lHL/gXFPYwubKDZmbSDpjsg0YCxfdDlEbTncf1kT1SyaKlXQqMH60/KS8/KiZL8Py180Vwzr0F+HVv/k0w60/2M3AWH0Vn7B2B7mNGZigpSFWbAioHvLQ1Cy9H7RgA9dgY1ze4h54GxUkn4YoEdzc8EAAAAAsuYSx9doGkvYqkLzgUjpsB+e35J7MZBS7Je35ieUtUZa18gbVTHbfHliGiIUmCAzYnOfb3BMGDjZ7OFKfO3SY</EncryptedPassword>
+    <History>True|2023-09-25T10:41:46.4220160Z;True|2023-09-25T13:19:43.1863593+03:00;True|2023-09-25T13:14:44.1374693+03:00;True|2023-09-25T12:47:07.6498089+03:00;True|2023-09-25T12:45:43.4284566+03:00;True|2023-09-25T12:20:58.6469801+03:00;False|2023-09-25T12:20:05.0356296+03:00;False|2023-09-25T12:06:18.8474977+03:00;True|2023-09-25T03:00:52.7965040+03:00;True|2023-09-25T01:02:23.2812668+03:00;True|2023-09-25T00:56:52.7877694+03:00;True|2023-09-25T00:52:25.4394079+03:00;True|2023-09-25T00:32:37.9007980+03:00;</History>
+    <LastFailureDetails />
+  </PropertyGroup>
+  <ItemGroup>
+    <EFMigrations Include="Infrastructure.AppDbContext">
+      <Value>Data Source=webdbserver-fmc.database.windows.net,1433%3bInitial Catalog=Web_db%3bUser ID=Admin1234!%3bPassword=Test6789!</Value>
+    </EFMigrations>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,12 @@
+{
+  "dependencies": {
+    "mssql1": {
+      "serviceConnectorResourceId": "/subscriptions/[parameters('subscriptionId')]/resourceGroups/[parameters('resourceGroupName')]/providers/Microsoft.Web/sites/TechTaskFMC/providers/Microsoft.ServiceLinker/linkers/ConnectionStringsTestConnection_F7BA73C246",
+      "secretStore": "AzureAppSettings",
+      "resourceId": "/subscriptions/[parameters('subscriptionId')]/resourcegroups/[parameters('resourceGroupName')]/providers/Microsoft.Sql/servers/webdbserver-fmc/databases/Web_db",
+      "type": "mssql.azure",
+      "connectionId": "ConnectionStrings:TestConnection",
+      "dynamicId": null
+    }
+  }
+}

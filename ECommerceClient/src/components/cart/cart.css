@@ -1,0 +1,22 @@
+.cart-container {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    gap: 100px;
+}
+
+.checkout-container {
+    margin-right: 100px;
+    color: black;
+}
+
+.checkout-button {
+    padding: 15px 20px 15px 20px;
+    font-size: 18px;
+    border-radius: 18px;
+}
+
+.cart-empty {
+    margin: 0 auto;
+    color: black;
+}

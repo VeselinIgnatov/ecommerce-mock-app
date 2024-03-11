@@ -1,0 +1,45 @@
+{
+  "dependencies": {
+    "mssql1": {
+      "restored": true,
+      "restoreTime": "2023-09-24T21:28:25.5207835Z"
+    }
+  },
+  "parameters": {
+    "mssql1.subscriptionId": {
+      "Name": "mssql1.subscriptionId",
+      "Type": "subscription",
+      "Value": "def4104f-0996-4a87-8924-3056140ccbd3"
+    },
+    "TechTaskFMC.resourceGroupLocation": {
+      "Name": "TechTaskFMC.resourceGroupLocation",
+      "Type": null,
+      "Value": "eastus"
+    },
+    "TechTaskFMC.resourceName": {
+      "Name": "TechTaskFMC.resourceName",
+      "Type": null,
+      "Value": "TechTaskFMC"
+    },
+    "mssql1.resourceGroupLocation": {
+      "Name": "mssql1.resourceGroupLocation",
+      "Type": "location",
+      "Value": "eastus"
+    },
+    "mssql1.resourceGroupName": {
+      "Name": "mssql1.resourceGroupName",
+      "Type": "resourceGroup",
+      "Value": "TechTaskFMC_group"
+    },
+    "TechTaskFMC.resourceGroupName": {
+      "Name": "TechTaskFMC.resourceGroupName",
+      "Type": "resourceGroup",
+      "Value": "TechTaskFMC_group"
+    },
+    "TechTaskFMC.subscriptionId": {
+      "Name": "TechTaskFMC.subscriptionId",
+      "Type": "subscription",
+      "Value": "def4104f-0996-4a87-8924-3056140ccbd3"
+    }
+  }
+}

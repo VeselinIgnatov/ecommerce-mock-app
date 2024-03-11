@@ -1,0 +1,19 @@
+.scroll-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    color: white;
+    background-color: blue;
+    display: none;
+
+    &.visible {
+        display: inline;
+    }
+}
+
+/* .scroll-to-top {
+    display: none;
+} */
